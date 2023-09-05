@@ -4,6 +4,12 @@ and returns the sum of all the odd row index and even column index elements usin
 */
 /*(index of matrix taken from  a[0][0] )*/
 #include<stdio.h>
+
+
+
+
+
+
 int sum(int,int,int (*matrix)[]);
 int main ()
 {
