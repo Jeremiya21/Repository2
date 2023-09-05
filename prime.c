@@ -14,11 +14,7 @@ int main()
     printf("The number is not prime number");
    }
    else
-<<<<<<< HEAD
     printf("Hi jeremiyaa.....");
-=======
-    printf("Am I getting a conflict???");
->>>>>>> Question2
 }
 
 int prime(int input)
