@@ -12,7 +12,7 @@ int main()
     printf("The number is not prime number");
    }
    else
-    printf("The number is a prime number");
+    printf("The number is a prime");
 }
 
 int prime(int input)
