@@ -1,0 +1,90 @@
+#include <stdio.h>
+
+int sum_2d_array(int arr[][3], int rows, int cols) {
+    int sum = 0;
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            sum += arr[i][j];
+        }
+    }
+    return sum;
+}
+
+int main() {
+    int arr[2][3] = {{1, 2, 3}, {4, 5, 6}};
+    printf("The sum of all elements in the array is %d\n", sum_2d_array(arr, 2, 3));
+    return 0;
+}
+
+
+
+
+//////////////////////////////////////////////////////////////////
+#include <stdio.h>
+
+void copy_2d_array(int src[][3], int dest[][3], int rows, int cols) {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            dest[i][j] = src[i][j];
+        }
+    }
+}
+
+int main() {
+    int src[2][3] = {{1, 2, 3}, {4, 5, 6}};
+    int dest[2][3];
+    copy_2d_array(src, dest, 2, 3);
+    printf("The elements of the destination array are:\n");
+    for (int i = 0; i < 2; i++) {
+        for (int j = 0; j < 3; j++) {
+            printf("%d ", dest[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+/////////////////////////////////////////////////////////////////////
+
+#include <stdio.h>
+
+int sum_odd_row_even_col(int arr[][3], int rows, int cols) {
+    int sum = 0;
+    for (int i = 0; i < rows; i += 2) {
+        for (int j = 0; j < cols; j += 2) {
+            sum += arr[i][j];
+        }
+    }
+    return sum;
+}
+
+int main() {
+    int arr[4][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}, {10, 11, 12}};
+    printf("The sum of all odd row index and even column index elements in the array is %d\n", sum_odd_row_even_col(arr, 4, 3));
+    return 0;
+}
+//////////////////////////////////////////////////////////////////////
+
+#include <stdio.h>
+
+void sum_2d_arrays(int arr1[][3], int arr2[][3], int rows, int cols) {
+    int result[rows][cols];
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            result[i][j] = arr1[i][j] + arr2[i][j];
+        }
+    }
+    printf("The sum of the two arrays is:\n");
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            printf("%d ", result[i][j]);
+        }
+        printf("\n");
+    }
+}
+
+int main() {
+    int arr1[2][3] = {{1, 2, 3}, {4, 5, 6}};
+    int arr2[2][3] = {{7, 8, 9}, {10, 11, 12}};
+    sum_2d_arrays(arr1, arr2, 2, 3);
+    return 0;
+}
