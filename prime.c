@@ -1,6 +1,6 @@
 /*Write a program that takes an integer as input and returns whether it is prime or not using a function.*/
 /*i am including a new line By sam sunny*/
-/*I am making a change*/
+/*Jeremy creating conflict for Nevilk*/
 #include<stdio.h>
 #include<math.h>
 int prime(int);
