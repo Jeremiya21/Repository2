@@ -6,5 +6,9 @@ int main(){
         y*=i;
     }
      printf("%lld\n",y);
+<<<<<<< HEAD
     return 0;
+=======
+    
+>>>>>>> Question2
 }
