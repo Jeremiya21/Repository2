@@ -27,4 +27,6 @@ int prime(int input)
     else 
     return 0;
    }
+
+/*conflict*/
 }   
