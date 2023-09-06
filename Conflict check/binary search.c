@@ -66,3 +66,4 @@ void main ()
 //ninak onnm vere ou panim ile
 //ith thanne pani hmmm
 //njn try cheythu monee :D
+//thirich nokka
