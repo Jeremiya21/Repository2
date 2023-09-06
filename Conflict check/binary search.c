@@ -62,7 +62,7 @@ void main ()
     }
     
 } 
-//innna pidicho conflict
+//ninak irikate oru conflict
 //ninak onnm vere ou panim ile
 //ith thanne pani hmmm
 //njn try cheythu monee :D
