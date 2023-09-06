@@ -4,6 +4,7 @@
 #include<math.h>
 int prime(int);
 int main()
+//nink oru pani theram ,inna pidicho...
 {
    int input;
    printf("Enter the number to check: ");
