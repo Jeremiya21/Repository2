@@ -4,7 +4,7 @@
 #include<math.h>
 int prime(int);
 int main()
-//nink oru pani theram ,inna pidicho...
+//nink oru pani theram ,inna pidicho...hmm
 {
     //hello sam sunny 
    int input;
