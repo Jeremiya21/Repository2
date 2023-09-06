@@ -6,6 +6,7 @@ int prime(int);
 int main()
 //nink oru pani theram ,inna pidicho...
 {
+    //hello sam sunny 
    int input;
    printf("Enter the number to check: ");
    scanf("%d",&input);
