@@ -6,7 +6,7 @@ void main(){
     scanf("%d",&n);
     int *output=fib(n);
     printf("Fibonacci series upto %d was",n);
-    //Nd conflict
+    //faris changd
     for(int i=0;output[i]!=-1;i++){
         printf("%d ",output[i]);
     }
