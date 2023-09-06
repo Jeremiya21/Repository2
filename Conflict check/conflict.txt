@@ -1,10 +1,8 @@
 #include<stdio.h>
 int main()
 {
-<<<<<<< HEAD
     printf("Presnakkaran Jeremy again");
-=======
+    printf("sam sunny");
     printf("Presnakkaran nk 2");
->>>>>>> origin/main
     return 0;
 }
