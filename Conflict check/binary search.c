@@ -1,3 +1,4 @@
+//ME? !!!
 #include <stdio.h>
 #include <stdlib.h>
 void main ()
@@ -62,10 +63,4 @@ void main ()
     }
     
 } 
-//ninak irikate oru conflict
-//enna pinne nokkallo
-//ninak onnm vere ou panim ile
-//ith thanne pani hmmm
-//njn try cheythu monee :D
-//thirich nokka
-//pani varunnund avaracha 
+
