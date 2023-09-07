@@ -2,14 +2,11 @@
 int main()
 {
     //You want problems??
-<<<<<<< HEAD
 //i Sam  sunny is introducing a new conflict into this file.
 // i am adding a second conflict 
 // i am adding a third line for conflict.
-=======
 i Sam  sunny is introducing a new conflict into this file.
 ithoru try
->>>>>>> a878bf6 (nokkatte)
     printf("Presnakkaran Jeremy again");
     printf("Presnakkaran nk 2");
     return 0;
