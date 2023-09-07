@@ -1,4 +1,4 @@
-#include <stdio.h>//bvhfbjvhjfbvfhbvbhvb
+#include <stdio.h>
 int* fib(int );
 void main(){
     int n;
