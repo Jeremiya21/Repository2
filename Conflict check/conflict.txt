@@ -1,12 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    //You want problems??
-//i Sam  sunny is introducing a new conflict into this file.
-// i am adding a second conflict 
-// i am adding a third line for conflict.
-i Sam  sunny is introducing a new conflict into this file.
-ithoru try
+    //try nevil try 
     printf("Presnakkaran Jeremy again");
     printf("Presnakkaran nk 2");
     return 0;
